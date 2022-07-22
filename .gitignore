@@ -1,0 +1,14 @@
+*.pyc
+*.log
+*.txt
+*.npz
+*.mat
+
+examples/.ipynb_checkpoints/*
+build/
+dist/
+digHolo/
+.vscode/
+
+Untitled*
+test*
