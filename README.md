@@ -1,24 +1,27 @@
 # pyDigHolo
-Python module to use [Joel Carpenter](https://github.com/joelacarpenter)'s [digHolo](https://github.com/joelacarpenter/digHolo)  C++ library.
+
+
+`pyDigHolo` is a Python module to use [Joel Carpenter](https://github.com/joelacarpenter)'s [digHolo](https://github.com/joelacarpenter/digHolo)  C++ library.
 [digHolo](https://github.com/joelacarpenter/digHolo) is a high-speed library for off-axis digital holography.
 
 ## Installation
 
-First, install 
+First, install [digHolo](https://github.com/joelacarpenter/digHolo)  C++ library.
+
 Then, install pyDigHolo, using `pip`
 
 ```bash
 pip install git+https://github.com/wavefrontshaping/pyDigHolo.git
 ```
 
-or clone the repository and install using in the module folder
+or clone the repository and, in the module folder, install using 
 
 ```bash
 python setup.py install
 ```
 ## Documentation 
 
-This module more or less simply wraps the function from the `digHolo` C module, 
+This module more or less simply wraps the functions from the `digHolo` C++ module, 
 please refer to the offocial  [digHolo repository](https://github.com/joelacarpenter/digHolo) for documentation. 
 ## Basic usage
 
@@ -30,7 +33,7 @@ from pyDigHolo import digHolo
 
 ### Instantiate the digHolo object
 
-You need the provide the file path to fetch the `.dll` from `digHolo`.
+You need the provide the file path to fetch the `.dll`/`.so` from `digHolo`.
 If you copied the `.dll` into your working folder, simply use
 
 ```python
